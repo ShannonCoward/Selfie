@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7EDF7CD-0596-46DD-8F80-20CE50AABF4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57A3B613730635F525E2616D7B35BA58D121C47C</key>
+		<string>https://github.com/ShannonArmon/Selfie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Selfie/Selfie.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57A3B613730635F525E2616D7B35BA58D121C47C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ShannonArmon/Selfie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57A3B613730635F525E2616D7B35BA58D121C47C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57A3B613730635F525E2616D7B35BA58D121C47C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Selfie</string>
+		</dict>
+	</array>
+</dict>
+</plist>
