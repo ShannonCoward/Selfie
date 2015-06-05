@@ -7,11 +7,37 @@
 //
 
 import UIKit
+import Parse
 
 class FeedTableViewController: UITableViewController {
-
+    
+    
+    
+    @IBAction func FeedAddButtonf(sender: AnyObject) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            println("Object has been saved.")
+            
+            
+            
+//            
+//            - in feedTVC, check if currentUser == nil, if true present login flow navigation controller
+           
+                
+                var currentUser = PFUser.currentUser()
+                
+                if currentUser != nil {
+                self.showViewController("WelcomeViewController", sender: "NavigationController")
+            }
+        }
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
